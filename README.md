@@ -1,89 +1,91 @@
-# Protocolo Gênese — Guia Digital Interativo
-
-> De e-book estático a experiência de leitura navegável, direto no navegador.
-
----
-
-## Sobre o Projeto
-
-O **Protocolo Gênese** é um guia técnico-executivo para arquitetura de agentes de Inteligência Artificial — originalmente desenvolvido como e-book em PDF. Este repositório apresenta sua versão como **Guia Digital Interativo**: um arquivo HTML autocontido que roda diretamente no navegador, sem instalação, sem dependências externas e sem necessidade de leitor de PDF.
-
-O conteúdo permanece integralmente o mesmo. A experiência de leitura é completamente diferente.
+# Genesis Protocol — Interactive Digital Guide
+> From static e-book to navigable reading experience, directly in the browser.
 
 ---
 
-## Funcionalidades
+## About the Project
 
-- **Navegação lateral** com índice completo por módulo — acesse qualquer página diretamente
-- **Botões Anterior / Próxima** em todas as 34 páginas
-- **Barra de progresso** de leitura no topo
-- **Navegação por teclado** — setas direita/esquerda ou cima/baixo
-- **Suporte a swipe** em dispositivos touch
-- **Zero dependências** — um único arquivo `.html` autocontido
-- **Design responsivo** — funciona em desktop e mobile
+The **Genesis Protocol** is a technical-executive guide for Artificial Intelligence agent architecture — originally developed as a PDF e-book. This repository presents its version as an **Interactive Digital Guide**: a self-contained HTML file that runs directly in the browser, with no installation, no external dependencies and no PDF reader required.
+
+The content remains entirely the same. The reading experience is completely different.
 
 ---
 
-## Estrutura do Conteúdo
+## Features
 
-| Módulo | Tema | Páginas |
-|--------|------|---------|
-| 01 | A Introdução — O Fim do Prompt Genérico | 04 – 09 |
-| 02 | A Alma Operacional — Engenharia de System Prompt | 10 – 13 |
-| 03 | A Biblioteca — RAG e Hierarquia da Verdade | 14 – 16 |
-| 04 | A Memória & O Custo — Tokens e Janela de Contexto | 17 – 19 |
-| 05 | As Ferramentas — Do Raciocínio à Execução | 20 – 23 |
-| 06 | O Primeiro Agente — Tutorial Prático | 24 – 29 |
-| — | Encerramento — O Novo Padrão | 30 – 34 |
+- **Side navigation** with full module index — access any page directly
+- **Previous / Next buttons** on all 34 pages
+- **Reading progress bar** at the top
+- **Keyboard navigation** — right/left or up/down arrow keys
+- **Swipe support** on touch devices
+- **Zero dependencies** — a single self-contained `.html` file
+- **Responsive design** — works on desktop and mobile
 
 ---
 
-## Como Usar
+## Content Structure
 
-Sem instalação. Sem servidor. Sem build.
+| Module | Topic | Pages |
+|--------|-------|-------|
+| 01 | The Introduction — The End of Generic Prompting | 04 – 09 |
+| 02 | The Operational Soul — System Prompt Engineering | 10 – 13 |
+| 03 | The Library — RAG and the Hierarchy of Truth | 14 – 16 |
+| 04 | Memory & Cost — Tokens and Context Window | 17 – 19 |
+| 05 | The Tools — From Reasoning to Execution | 20 – 23 |
+| 06 | The First Agent — Practical Tutorial | 24 – 29 |
+| — | Closing — The New Standard | 30 – 34 |
+
+---
+
+## How to Use
+
+No installation. No server. No build.
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/protocolo-genese.git
+# Clone the repository
+git clone https://github.com/RegiaJG/Guia_Digital_Interativo.git
 
-# Abra o arquivo no navegador
+# Open the file in your browser
 open protocolo-genese-executivo.html
 ```
 
-Ou simplesmente faça o download do arquivo `.html` e abra com qualquer navegador moderno.
+Or simply download the `.html` file and open it with any modern browser.
 
 ---
 
-## Tecnologias
+## Technologies
 
-Este projeto é intencionalmente minimalista — construído com o básico da web, sem frameworks.
+This project is intentionally minimalist — built with web fundamentals, no frameworks.
 
-- **HTML5** — estrutura e conteúdo
-- **CSS3** — layout, tipografia e animações
-- **JavaScript vanilla** — navegação, swipe e lógica de estado
+- **HTML5** — structure and content
+- **CSS3** — layout, typography and animations
+- **Vanilla JavaScript** — navigation, swipe and state logic
 - **Google Fonts** — Cormorant Garamond, Outfit, DM Mono
 
 ---
 
-## Decisão de Design
+## Design Decision
 
-O formato foi migrado de PDF para HTML por razões práticas e estratégicas:
+The format was migrated from PDF to HTML for practical and strategic reasons:
 
-- PDF depende de leitor externo; HTML abre em qualquer dispositivo com um clique
-- PDF não tem estado — HTML mantém progresso, animações e interatividade
-- PDF é download — HTML pode ser hospedado e acessado por link direto
-- PDF é estático — HTML permite futuras evoluções sem gerar nova versão do arquivo
-
----
-
-## Autor
-
-Desenvolvido por **Lucas Costa Nogueira**
+- PDF depends on an external reader; HTML opens on any device with a single click
+- PDF has no state — HTML maintains progress, animations and interactivity
+- PDF is a download — HTML can be hosted and accessed via direct link
+- PDF is static — HTML allows future improvements without generating a new file version
 
 ---
 
-## Licença
+## Author
 
-© 2025 · Protocolo Gênese · Todos os direitos reservados.
+Developed by **[Lucas Costa Nogueira](https://github.com/RegiaJG)**
 
-Este material é protegido contra reprodução, transmissão ou compartilhamento sem autorização expressa. Consulte o aviso legal completo na página 02 do guia.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Costa%20Nogueira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-nogueira-017b12191)
+[![GitHub](https://img.shields.io/badge/GitHub-RegiaJG-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RegiaJG)
+
+---
+
+## License
+
+© 2025 · Genesis Protocol · All rights reserved.
+
+This material is protected against reproduction, transmission or sharing without express authorization. See the full legal notice on page 02 of the guide.
