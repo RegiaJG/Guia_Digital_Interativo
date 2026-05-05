@@ -1,6 +1,8 @@
 # Genesis Protocol — Interactive Digital Guide
 > From static e-book to navigable reading experience, directly in the browser.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/RegiaJG/Guia_Digital_Interativo)
+
 ---
 
 ## About the Project
@@ -37,9 +39,33 @@ The content remains entirely the same. The reading experience is completely diff
 
 ---
 
+## Deploy
+
+### Vercel (recommended)
+
+Click the button above or follow these steps:
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy from the project directory
+vercel
+```
+
+Vercel will automatically detect the static site and serve `protocolo-genese-executivo.html` at the root URL. No build step required.
+
+### Other static hosts
+
+This project works on any static hosting platform (Netlify, GitHub Pages, Cloudflare Pages). Just upload the files — `protocolo-genese-executivo.html` and `vercel.json` (if applicable) — and configure the root redirect if needed.
+
+---
+
 ## How to Use
 
-No installation. No server. No build.
+**Online:** Access the deployed URL directly in any modern browser.
+
+**Local:**
 
 ```bash
 # Clone the repository
@@ -55,7 +81,7 @@ Or simply download the `.html` file and open it with any modern browser.
 
 ## Technologies
 
-This project is intentionally minimalist — built with web fundamentals, no frameworks.
+This project is intentionally minimalist — built with web fundamentals, no frameworks, no build step.
 
 - **HTML5** — structure and content
 - **CSS3** — layout, typography and animations
